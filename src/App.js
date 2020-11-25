@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <section className="query">
-        <PostsQuery  />
+        <PostsQuery createdBy={null} />
       </section>
     </>
   );
